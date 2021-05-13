@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&display=swap');
+
+.container{
+  width:80vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gainsboro;
+  border-radius: 2px;
+  margin:auto;
+  padding:0;
+}
+.card-1{
+  
+  width: 200px;
+  height:400px;
+  background-color: hsl(31, 77%, 52%);
+  padding:25px;
+   color:white;
+ 
+ 
+}
+.card-2{
+    width:200px;
+     height:400px;
+     background-color: hsl(184, 100%, 22%);
+     padding:25px;
+      color:white;
+     
+}
+.card-3{
+    width:200px;
+    height:400px;
+    background-color: hsl(179, 100%, 13%);
+    padding:25px;
+    color:white;
+ }
+ button{
+   width: 8rem;
+   height: 3rem;
+   border-radius: 1rem;
+   margin:40px;
+  
+ }
+  .card-1 > button{
+  color: hsl(31, 77%, 52%);
+      }
+  .card-2 > button{
+  color: hsl(184, 100%, 22%);
+      }
+  .card-3 > button{
+  color: hsl(179, 100%, 13%);
+      }
+ h1{
+    font-family: 'Big Shoulders Display', cursive, 'Lexend Deca', sans-serif;
+    font-weight: 700px;
+ }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.container{
+  display: block !important;
+  width: 100vw;
+  background-color: white!important;
+   height: 96vh!important;
+  }
+  h1{
+    font-family: 'Big Shoulders Display', cursive, 'Lexend Deca', sans-serif;
+    font-weight: 400px !important;
+    margin:auto !important;
+
+  }
+  .card-1{
+     width:88% !important;
+     height:33% !important;
+     margin: auto !important;
+     padding: 5px!important;
+  }
+  .card-2{
+     width:88% !important;
+     height:33% !important;
+     margin: auto !important;
+     padding: 5px!important;
+  }
+  .card-3{
+     width:88% !important;
+     height:33% !important;
+    margin: auto !important;
+     padding: 5px!important;
+  }
+ 
+ button{
+    font-size:15px;
+    width: 8rem;
+    height: 2rem !important;
+    border-radius: 1rem;
+    margin:auto!important;
+    text-align: center !important;
+    color: white !important;
+    }
+ 
+ } //* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width:1366px){
+  
+ .container{ 
+   background-color: white !important;
+ }
+}
